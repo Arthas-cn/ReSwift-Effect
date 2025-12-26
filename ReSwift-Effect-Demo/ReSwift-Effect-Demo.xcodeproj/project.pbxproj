@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C9E6D8EE2EFD4DF100366EE7 /* ReSwiftEffect in Frameworks */ = {isa = PBXBuildFile; productRef = C9E6D8ED2EFD4DF100366EE7 /* ReSwiftEffect */; };
+		C917930E2EFE65DA008BD344 /* ReSwiftEffect in Frameworks */ = {isa = PBXBuildFile; productRef = C917930D2EFE65DA008BD344 /* ReSwiftEffect */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,6 @@
 		C9E6D8AB2EFD4A4000366EE7 /* ReSwift-Effect-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReSwift-Effect-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E6D8B82EFD4A4100366EE7 /* ReSwift-Effect-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReSwift-Effect-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E6D8C22EFD4A4100366EE7 /* ReSwift-Effect-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReSwift-Effect-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9E6D8D52EFD4A5500366EE7 /* Package */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Package; path = ../Package; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -57,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9E6D8EE2EFD4DF100366EE7 /* ReSwiftEffect in Frameworks */,
+				C917930E2EFE65DA008BD344 /* ReSwiftEffect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +80,6 @@
 		C9E6D8A22EFD4A4000366EE7 = {
 			isa = PBXGroup;
 			children = (
-				C9E6D8D52EFD4A5500366EE7 /* Package */,
 				C9E6D8AD2EFD4A4000366EE7 /* ReSwift-Effect-Demo */,
 				C9E6D8BB2EFD4A4100366EE7 /* ReSwift-Effect-DemoTests */,
 				C9E6D8C52EFD4A4100366EE7 /* ReSwift-Effect-DemoUITests */,
@@ -127,7 +125,7 @@
 			);
 			name = "ReSwift-Effect-Demo";
 			packageProductDependencies = (
-				C9E6D8ED2EFD4DF100366EE7 /* ReSwiftEffect */,
+				C917930D2EFE65DA008BD344 /* ReSwiftEffect */,
 			);
 			productName = "ReSwift-Effect-Demo";
 			productReference = C9E6D8AB2EFD4A4000366EE7 /* ReSwift-Effect-Demo.app */;
@@ -211,6 +209,9 @@
 			);
 			mainGroup = C9E6D8A22EFD4A4000366EE7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C917930C2EFE65DA008BD344 /* XCLocalSwiftPackageReference "../../reswift-effect" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C9E6D8AC2EFD4A4000366EE7 /* Products */;
 			projectDirPath = "";
@@ -587,8 +588,15 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		C917930C2EFE65DA008BD344 /* XCLocalSwiftPackageReference "../../reswift-effect" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../reswift-effect";
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		C9E6D8ED2EFD4DF100366EE7 /* ReSwiftEffect */ = {
+		C917930D2EFE65DA008BD344 /* ReSwiftEffect */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ReSwiftEffect;
 		};
