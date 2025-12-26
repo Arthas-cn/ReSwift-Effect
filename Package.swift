@@ -19,13 +19,11 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "ReSwiftEffect",
-            path: "Sources"
+            name: "ReSwiftEffect"
         ),
         .testTarget(
             name: "ReSwift-EffectTests",
-            dependencies: ["ReSwiftEffect"],
-            path: "Tests/ReSwift-EffectTests"
+            dependencies: ["ReSwiftEffect"]
         ),
     ]
 )
